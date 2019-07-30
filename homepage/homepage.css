@@ -1,0 +1,51 @@
+
+.wrap{
+	margin: auto;
+	width: 800px;
+	height: 600px;
+}
+.logo{
+	float: left;
+}
+.toplinks{
+	text-align: center;
+}
+.toplinks li {
+	text-align: center;
+	margin: auto;
+	width: 100px;
+	display: inline;
+	border: 1px solid grey;
+	background: grey;
+	padding: 5px;
+}
+
+button a, li a{
+	text-decoration: none;
+	color: white;
+	font-size: 21px;
+}
+a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.talk{
+	padding-top: 30px;
+	float: right;
+	text-align: center;
+	width: 200px;
+	font-size: 25px;
+}
+img#amalHP{
+	display: block;
+	margin: 50px 170px;
+}
+button{
+	display: block;
+	width: 200px;
+	height: 100px;
+	margin: 50px 300px;
+	background: #B3DFF2;
+	border: 2px solid #B3DFF2;
+	border-radius: 20px;
+}
