@@ -2,32 +2,124 @@
 .wrap{
 	margin: auto;
 	width: 800px;
-	height: 600px;
-}
-.logo{
-	float: left;
-}
-.toplinks{
-	text-align: center;
-}
-.toplinks li {
-	text-align: center;
-	margin: auto;
-	width: 100px;
-	display: inline;
-	border: 1px solid grey;
-	background: grey;
-	padding: 5px;
 }
 
-button a, li a{
-	text-decoration: none;
-	color: white;
-	font-size: 21px;
+header{
+	width: auto ;
+	overflow : auto ;
+	margin-top: 2%;
+
+	margin-bottom: 25;
 }
-a:hover{
-	color: black;
-	text-decoration: underline;
+.logo {
+	float : left ;
+	margin: 1% ;
+}
+
+nav{
+	float: center ;
+}
+nav ul  {
+	width: auto ;
+	overflow : auto ;
+}
+nav ul li {
+	margin-top: 5%;
+	margin-left: 1%;
+	float: right;
+	display: inline-block;
+	List-style-type: none ;
+}
+.basepPage {
+	background-color:#77b55a;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Impact;
+	font-size:17px;
+	padding:19px 9px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.basepPage:hover {
+	background-color:#72b352;
+	color: #ffffff;
+}
+.basepPage:active {
+	position:relative;
+	top:1px;
+}
+.callUS {
+	background-color:#fe1a00;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Impact;
+	font-size:17px;
+	padding:19px 9px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.callUS:hover {
+	background-color:#ce0100;
+	color: #ffffff;
+
+}
+.callUS:active {
+	position:relative;
+	top:1px;
+}
+.aboutUS {
+	background-color:#ffec64;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Impact;
+	font-size:17px;
+	padding:20px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee70;
+}
+.aboutUS:hover {
+	background-color:#ffab23;
+	color: #ffffff;
+}
+.aboutUS:active {
+	position:relative;
+	top:1px;
+}
+.start{
+	background-color:#B3DFF2;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	margin: 50px 300px;
+	text-align: center;
+	cursor:pointer;
+	color:#333333;
+	font-family:Impact;
+	font-size:17px;
+	padding: 50px 100px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #B3DFF4;
+}
+.start:hover {
+	background-color:#58C6F5;
+	color: #ffffff;
+}
+.start:active {
+	position:relative;
+	top:1px;
 }
 .talk{
 	padding-top: 30px;
@@ -38,14 +130,6 @@ a:hover{
 }
 img#amalHP{
 	display: block;
-	margin: 50px 170px;
+	margin: 0px 170px;
 }
-button{
-	display: block;
-	width: 200px;
-	height: 100px;
-	margin: 50px 300px;
-	background: #B3DFF2;
-	border: 2px solid #B3DFF2;
-	border-radius: 20px;
-}
+
