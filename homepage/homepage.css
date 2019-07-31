@@ -1,4 +1,3 @@
-
 .wrap{
 	margin: auto;
 	width: 800px;
@@ -132,4 +131,44 @@ img#amalHP{
 	display: block;
 	margin: 0px 170px;
 }
+form{
+    float: center ;
+	display: inline-block;
+	margin: 10px 300px;
+
+	text-align: center;
+}
+input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+}
+input:focus{
+	background: lightblue;
+	border: none;
+}
+.forgetpassword{
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
