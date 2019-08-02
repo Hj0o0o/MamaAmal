@@ -151,7 +151,9 @@ input:focus{
 .forgetpassword{
 	margin: auto;
 }
-
+a{
+	display: block;
+}
 
 
 
