@@ -154,9 +154,29 @@ input:focus{
 a{
 	display: block;
 }
-
-
-
+aside{
+	width: 500px;
+	float: left;
+}
+.list{
+	width: 200px;
+	float: right;
+	padding-left: 2%;
+}
+aside .talk {
+	padding-top: 0px;
+	float: right;
+	text-align: center;
+	width: 100px;
+	font-size: 25px;
+}
+.listpage{
+	background-image :url("imgs/greenbackground.jpeg"); 
+	background-position: center ;
+	background-size: cover ;
+	background-repeat: no-repeat ;
+	height: 100vh ;
+}
 
 
 
